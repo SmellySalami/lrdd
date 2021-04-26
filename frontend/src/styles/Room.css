@@ -1,0 +1,88 @@
+#room {
+  height: 90%;
+}
+
+#send_code {
+  height: 5%;
+}
+
+#send_code_btn {
+  width: 80px;
+}
+
+#editor {
+  height: 70%;
+}
+
+#shell {
+  background-color: #000000;
+  height: 25%;
+  color: white;
+  overflow-y: auto;
+}
+
+#shell pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#comms_panel {
+  /* background-color: #627fa7; */
+  border-color: #8ca4c7;
+  border-width: 2px;
+  border-left-style: solid;
+}
+
+#videos {
+  height: 45%;
+  overflow-y: auto;
+}
+
+video {
+  width: 50%;
+  height: auto;
+  max-height: 50%;
+  object-fit: cover;
+}
+
+#video_controls {
+  height: 5%;
+}
+
+#mic_btn,
+#video_btn {
+  border-radius: 50%;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+
+#mic_btn:hover,
+#video_btn:hover {
+  background-color: #b3b3ff;
+}
+
+#chat {
+  background-color: white;
+  height: 50%;
+  border-color: #8ca4c7;
+  border-width: 2px;
+  border-top-style: solid;
+}
+
+#messages {
+  height: 90%;
+  overflow-y: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+#messages div .senderName {
+  color: gray;
+}
+
+#send_msg {
+  height: 10%;
+}
+
+#send_msg_btn {
+  margin-left: 10px;
+}

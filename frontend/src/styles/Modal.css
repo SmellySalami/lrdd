@@ -1,0 +1,33 @@
+.modal_container {
+  font-size: 12px;
+}
+
+.modal_container > .modal_header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.modal_container > .modal_content {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.modal_container > .close_btn {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 1px solid black;
+}
+
+.modal_container > .close_btn:hover {
+  background-color: #a6a6a6;
+}

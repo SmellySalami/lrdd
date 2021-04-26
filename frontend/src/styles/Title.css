@@ -1,0 +1,48 @@
+/* Video Background Credits: https://bootstrapious.com/p/fullscreen-video-background */
+
+.video-background-holder {
+  position: relative;
+  height: 90%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.video-background-content {
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+#title_content {
+  color: white;
+}
+
+#credits_btn {
+  margin-bottom: 50px;
+  background-color: #4873a5;
+  border: none;
+  color: white;
+}

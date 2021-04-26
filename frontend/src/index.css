@@ -1,0 +1,20 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: auto;
+  font-family: 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  background: #ffffff;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  background-color: #7196c1;
+}
+
+#root {
+  height: 100%;
+}

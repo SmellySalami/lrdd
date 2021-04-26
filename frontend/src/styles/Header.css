@@ -1,0 +1,26 @@
+#header {
+  height: 10%;
+  background-color: #4873a5;
+  border-color: #8ca4c7;
+  border-width: 2px;
+  border-bottom-style: solid;
+}
+
+#header #title {
+  color: white;
+  text-decoration: none;
+  margin: 0px;
+  font-size: 48px;
+}
+
+#logo {
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  background-image: url('../assets/logo512.png');
+}
+
+#signin {
+  margin-right: 10px;
+}

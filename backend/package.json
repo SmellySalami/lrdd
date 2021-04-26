@@ -1,0 +1,25 @@
+{
+    "name": "server",
+    "version": "0.1.0",
+    "main": "app.js",
+    "dependencies": {
+        "connect-mongo": "^4.4.1",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "express": "^4.17.1",
+        "express-graphql": "^0.12.0",
+        "express-server": "^0.7.0",
+        "express-sslify": "^1.2.0",
+        "graphql": "^15.5.0",
+        "https": "^1.0.0",
+        "mongoose": "^5.12.2",
+        "peer": "^0.6.1",
+        "socket.io": "^4.0.0",
+        "unirest": "^0.6.0",
+        "uuid": "^8.3.2",
+        "validator": "^13.5.2"
+    },
+    "scripts": {
+        "start": "npm install && node app.js"
+    }
+}
